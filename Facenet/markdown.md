@@ -29,3 +29,5 @@
 
 训练完后测试评估在另外的代码中
 
+3、训练好的红外人脸识别模型保存服务器地址/work9/kmust/SA4TFR/Code/Facenet/data/model/
+
