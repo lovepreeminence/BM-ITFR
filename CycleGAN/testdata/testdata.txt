@@ -1,0 +1,6 @@
+测试生成数据说明
+SpeakingFaces---5400可见光
+Tufts-----------1532张可见光
+DiggFace--------35117张（500人可见光）
+
+生成fake在test_result\

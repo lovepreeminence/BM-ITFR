@@ -1,0 +1,5 @@
+训练数据说明
+SpeakingFaces---5400对
+Tufts-----------1532对
+
+生成模型在checkpoints\
