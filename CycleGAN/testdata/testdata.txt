@@ -2,5 +2,5 @@
 SpeakingFaces---5400可见光
 Tufts-----------1532张可见光
 DiggFace--------35117张（500人可见光）
-
+服务器数据地址/work9/kmust/SA4TFR/Data/
 生成fake在test_result\
