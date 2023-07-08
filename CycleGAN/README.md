@@ -43,12 +43,17 @@
 ### 训练参数设置
 
 运行train.py代码时，参数设置有三种方式：
+
 一是在Pycharm本地终端里，输入python train.py --dataroot ./datasets/xxx --name xxx --model cycle_gan即可运行，同时需要修改什么参数就在后面添加，--xxx样式为参数名，空一格在其后为参数内容（这一种比较麻烦，每一次运行都需要填写参数）
+
 二是在train.py代码页面，右键点击-->更多运行/调试-->修改运行配置-->形参，在形参里输入--dataroot ./datasets/xxx --name xxx --model cycle_gan，应用并确定即可保存，点击运行即可
+
 三是在./options/train_options.py里面修改参数配置（不推荐）
 
 我们的参数设置为：
+
 --dataroot ./datasets/dataset_folder --model cycle_gan --gpu_ids 0 --batch_size 10 --display_id 0 --n_epochs 50 --n_epochs_decay 50 --lr 0.0001 --beta1 0.1  --load_size 128 --crop_size 128 --name 5400_128_mse_bs10 --no_flip --serial_batches
+
 其中，--dataroot即训练集路径，--n_epochs、--n_epochs_decay即设置的训练轮次（两者相加为总轮次），--name即训练出的模型名称，这三个可修改
 
 训练完成后，我们在./checkpoints/路径下就得到了训练出的转换模型（以文件夹形式存放），里面有latest_net_G_A.pth（A域转B域的生成模型）、latest_net_G_B.pth（B域转A域的生成模型）、test_opt.txt（此次训练的参数设置）、web（训练过程图像）
