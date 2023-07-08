@@ -12,7 +12,7 @@
 
 选择已有虚拟环境或创建新的虚拟环境，在虚拟环境中安装运行CycleGAN所需要的库
 在代码文件中requirements.txt文件里有所需的库，可以选择需要的逐个安装（pip install -r 库名），也可一次性安装（pip install -r requirements.txt）
-若下载慢，可以在后面添加 [镜像源网址](https://kpzhang93.github.io/MTCNN_face_detection_alignment/paper/spl.pdf) 如清华源
+若下载慢，可以在后面添加 [镜像源网址](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/) 如清华源
 
 ## 训练代码
 
