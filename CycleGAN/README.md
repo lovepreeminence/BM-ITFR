@@ -61,8 +61,11 @@
 ### 测试参数设置
 
 测试参数修改同上
+
 我们的参数设置：
+
 --dataroot ./datasets/dataset_folder/testA --gpu_ids 0 --batch_size 10 --load_size 128 --crop_size 128 --name 5400_128_mse_bs10 --results_dir ./test_result/ --netG resnet_9blocks --model test  --no_dropout --model_suffix _A
+
 其中，--dataroot即测试集路径，--name即选择训练好的模型，--results_dir即测试结果路径，--model test即单侧测试
 
 
