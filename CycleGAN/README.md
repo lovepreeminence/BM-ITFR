@@ -1,4 +1,4 @@
-# 基于CycleGAN的改进模型（加入了MSE Loss）进行跨模态的图像合成（即实现由可见光转换为红外）
+# 基于CycleGAN的改进模型（加入MSELoss）进行跨模态的图像合成（即可见光生成红外）
 
 ## Table of contents
 
