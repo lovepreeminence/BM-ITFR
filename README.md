@@ -3,7 +3,7 @@
 
 ## Table of contents
 
-* [CycleGAN](#CycleGAN)
+* [CycleGAN](#cyclegan)
 * [Facenet](#Facenet)
 * [Evaluate](#Evaluate)
 * [Data](#Data)
