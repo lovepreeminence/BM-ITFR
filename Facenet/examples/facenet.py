@@ -10,15 +10,6 @@ import numpy as np
 import os
 
 
-# import random
-# # 固定PyTorch的随机种子
-# torch.manual_seed(0)
-# torch.backends.cudnn.deterministic = True
-# torch.backends.cudnn.benchmark = False
-#
-# # 固定Python的随机种子
-# random.seed(0)
-# np.random.seed(0)
 
 for i in range(10):
     print("第%d次" % (int(i)+1))
