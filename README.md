@@ -4,9 +4,9 @@
 ## Table of contents
 
 * [CycleGAN](#cyclegan)
-* [Facenet](#Facenet)
-* [Evaluate](#Evaluate)
-* [Data](#Data)
+* [Facenet](#facenet)
+* [Evaluate](#evaluate)
+* [Data](#data)
 
 
 
@@ -27,7 +27,7 @@
 红外人脸识别模型评估，完成对SpeakingFaces中划分的测试集进行测试评估
 
 
-## data
+## Data
 
 相应数据地址在各目录下可见
 
