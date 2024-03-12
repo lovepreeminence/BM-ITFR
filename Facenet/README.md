@@ -192,7 +192,7 @@ To use this code in your own git repo, I recommend first adding this repo as a s
 
 Alternatively, the code can be installed as a package using pip:
 
-`pip install facenet-pytorch`
+`pip install facenet-pytorch `
 
 ## Conversion of parameters from Tensorflow to Pytorch
 
