@@ -1,4 +1,4 @@
-# Synthesis-Augmentation-for-Thermal-Face-Recognition
+# Bridging Modalities:  Improving Thermal Face Recognition with Low-Quality Cross-Modality Synthesis
 利用跨模态数据增强的方法解决红外数据的稀缺问题，进而提升红外人脸识别模型的性能的方法
 
 ## Table of contents
