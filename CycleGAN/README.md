@@ -38,7 +38,7 @@
     |   |   +-- ...
     
     
-其中，trainA和trainB文件夹分别包含两个不同域的训练图像，例如，想将可见光的图像转换成红外的图像，trainA文件夹中应该包含可见光的图像，trainB文件夹中应该包含红外的图像。
+其中，trainA和trainB文件夹分别包含两个不同域的训练图像，例如，想将可见光的图像转换成红外的图像，trainA文件夹中应该包含可见光的图像，trainB文件夹中应该包含红外的图像
 
 ### 训练参数设置
 
@@ -79,5 +79,6 @@
 训练集数据保存地址/work9/kmust/SA4TFR/Data/SF100.zip  百度云链接：https://pan.baidu.com/s/1gDGft2VYigikLAPPdTuC2A?pwd=dxp1 提取码：dxp1
    
 训练好的G_A模型保存服务器地址/work9/kmust/SA4TFR/Code/CycleGAN/checkpoints/
+
 
 
